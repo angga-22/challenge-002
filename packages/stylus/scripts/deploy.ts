@@ -36,6 +36,13 @@ export default async function deployScript(deployOptions: DeployOptions) {
     ...deployOptions,
   });
 
+  // Deploy MultiSender contract for Challenge 002
+  await deployStylusContract({
+    contract: "multi-sender",
+    constructorArgs: [config.deployerAddress!],
+    ...deployOptions,
+  });
+
   // EXAMPLE: Deploy to Orbit Chains, uncomment to try
   // await deployStylusContract({
   //   contract: "counter",
