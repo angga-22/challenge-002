@@ -1,6 +1,8 @@
 
 ## Challenge 002: Multi-Send Tool - Implementation Approach
 
+Deployed Url: https://challenge-002-nextjs-weld.vercel.app/multi-send
+
 This project successfully implements **Challenge 002: Multi-Send Tool** - a solution for sending ETH to multiple addresses in a single batch transaction. Here's the comprehensive approach taken to complete this challenge:
 
 ### Challenge Requirements
